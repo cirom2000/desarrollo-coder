@@ -6,77 +6,160 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../favicon.png">
-    <link rel="stylesheet" href="../css/styles.css">
+
+    <meta name="description" content="Encontrá en Bit+ las noticias mas relevantes de los videojuegos" />
+
+    <meta name="keywords" content="Bitplus, Bit+, Juegos, Marios Bros, Resident Evil, Dragon ball" />
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ce1edf5ae2.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-..." />
+
     <title>Podcast</title>
 
 </head>
 
 <body>
 
-    <header>
-
-        <a href="">
-            <img src="" alt="Logo de Bitplus">
+    <header class="header">
+        <a href="../index.html">
+            <img class="header__img mx-4" src="../images/logo.webp" alt="Logo de Bitplus">
         </a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="acercade.html">Acerca de</a></li>
-                <li><a href="podcast.html">Podcast</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+        <nav class="header__nav">
+            <ul class="mx-4">
+                <li class="header__li"><a class="header__item" href="../index.html">Inicio</a></li>
+                <li class="header__li"><a class="header__item" href="./noticias.html">Noticias</a></li>
+                <li class="header__li"><a class="header__item" href="./acercade.html">Acerca de</a></li>
+                <li class="header__li"><a class="header__item" href="./podcast.html">Podcast</a></li>
+                <li class="header__li"><a class="header__item" href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
 
     </header>
 
     <main>
+        <section id="recientes">
 
-        <section id="bienvenida">
-            <h1>Bienvenidos a BitPlus!</h1>
-            <p>Noticias sobre el mundo de los videojuegos.</p>
+            <div class="container page__container">
+                <h1>Disfruta del podcast de Bitplus</h1>
+                <hr class="w-100 clearfix " />
+
+                <div class="row pt-2 pb-2 my-5">
+                    <div class="podcast__card col-12 col-xxl-4">
+                        <div class="h-100">
+                            <img src="../images/re4-leon.webp" alt="Podcast RE4">
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-xxl-8">
+                        <h2>Podcast Resident Evil 4 Remake</h2>
+                        <p class="podcast__date">8 de marzo de 2023</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque harum iusto incidunt sint. Cum
+                            ipsam qui exercitationem consequuntur quod! Eius quod in est doloremque voluptas omnis neque
+                            recusandae accusantium quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                            harum iusto incidunt sint.ipsam qui exercitationem consequuntur quod! Eius quod in est
+                            doloremque voluptas omnis neque
+                            recusandae accusantium quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                            harum iusto incidunt sint. </p>
+
+                        <div class="d-flex justify-content-center justify-content-lg-end mt-5">
+                            <a href="#"><i class="mx-2 fab fa-spotify icon__fa rs-spotify"></i></a>
+                            <a href="#"><i class="mx-2 fab fa-youtube icon__fa rs-youtube"></i></a>
+                            <a href="#"><i class="mx-2 fab fa-itunes icon__fa rs-itunes"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <hr class="w-100 clearfix " />
+                <div class="row pt-2 pb-2 my-5">
+                    <div class="podcast__card col-12 col-xxl-4">
+                        <div class="h-100">
+                            <img src="../images/mario-bros.webp" alt="Podcast mario">
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-xxl-8">
+                        <h2> Podcast Marios Bros</h2>
+                        <p class="noticias-date">8 de marzo de 2023</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque harum iusto incidunt sint. Cum
+                        ipsam qui exercitationem consequuntur quod! Eius quod in est doloremque voluptas omnis neque
+                        recusandae accusantium quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                        harum iusto incidunt sint. Cum
+                        ipsam qui exercitationem consequuntur quod! Eius quod in est doloremque voluptas omnis neque
+                        </p>
+
+                        <div class="d-flex justify-content-center justify-content-lg-end mt-5">
+                            <a href="#"><i class="mx-2 fab fa-spotify icon__fa rs-spotify"></i></a>
+                            <a href="#"><i class="mx-2 fab fa-youtube icon__fa rs-youtube"></i></a>
+                            <a href="#"><i class="mx-2 fab fa-itunes icon__fa rs-itunes"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <hr class="w-100 clearfix" />
+
+                <div class="row pt-2 pb-2 my-5">
+                    <div class="podcast__card col-12 col-xxl-4">
+                        <div class="h-100">
+                            <img class="" src="../images/dbzbt4.webp" alt="Podcast DBZ BT4">
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-xxl-8">
+                        <h2>Dragon Ball Z Budokai Tenkaichi 4</h2>
+                        <p class="noticias__date">8 de marzo de 2023</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque harum iusto incidunt sint. Cum
+                        ipsam qui exercitationem consequuntur quod! Eius quod in est doloremque voluptas omnis neque
+                        recusandae accusantium quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                        harum iusto incidunt sint. Cum
+                        ipsam qui exercitationem consequuntur quod! Eius quod in est doloremque voluptas omnis neque
+                        recusandae accusantium quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                        </p>
+                        <div class="d-flex justify-content-center justify-content-lg-end mt-5">
+                            <a href="#"><i class="mx-2 fab fa-spotify icon__fa rs-spotify"></i></a>
+                            <a href="#"><i class="mx-2 fab fa-youtube icon__fa rs-youtube"></i></a>
+                            <a href="#"><i class="mx-2 fab fa-itunes icon__fa rs-itunes"></i></a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <hr class="w-100 clearfix " />
+            </div>
         </section>
-
-
     </main>
 
-    <section id="recientes">
-
-        <h3>Disfruta del podcast de Bitplus</h3>
-
-        <article class="capitulo1">
-            <img src="../images/post1.jpg" alt="noticia-1">
-            <h4>Nuevo capitulo - escuchalo ya!</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Facilis nemo reprehenderit debitis </p>
-            <a href="">Ver noticia</a>
-        </article>
-
-        <article class="capitulo2">
-            <img src="../images/post2.jpg" alt="noticia-2">
-            <h4>Capitulo anterior</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Facilis nemo reprehenderit debitis </p>
-            <a href="">Ver noticia</a>
-        </article>
-
-        <article class="capitulo">
-            <img src="../images/post3.jpg" alt="noticia-3">
-            <h4>Otros capitulos</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Facilis nemo reprehenderit debitis </p>
-            <a href="">Ver noticia</a>
-        </article>
-
-    </section>
 
 
-    <footer>
-        <h3>Redes sociales</h3>
-        <a href="https://www.instagram.com/">Instagram</a>
-        <a href="https://www.facebook.com/">Facebook</a>
-        <a href="https://www.twitter.com/">Twitter</a>
-        <p>© 2023 Bitplus. Todos los derechos reservados.</p>
+    <!--pie de pagina-->
+    <footer class="text-center text-lg-start footer">
+        <div class="container d-flex justify-content-center py-5">
+            <a href="https://www.facebook.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center text-white p-3 footer__copy">
+            © 2023 Bit Plus. Todos los derechos reservados.
+        </div>
+        <!-- Copyright -->
     </footer>
 
 </body>

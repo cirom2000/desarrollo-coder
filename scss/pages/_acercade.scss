@@ -1,0 +1,12 @@
+.acerca__contImg{
+    overflow:hidden;
+
+    &-img{
+        height: 600px;
+        transition: ease all 0.5s;  
+        &:hover{
+            -webkit-transform:scale(1.3);transform:scale(1.3);   
+        }
+    } 
+  }
+  

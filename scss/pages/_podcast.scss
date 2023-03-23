@@ -1,0 +1,31 @@
+.podcast__card{
+    height: 300px;
+
+    & img{
+        @include sizeWith(100%, 100%);
+        object-fit: cover;
+        z-index:1;
+        filter:alpha(opacity=70);
+        opacity:100;
+        transition: ease all 0.5s;
+
+        &:hover{
+            opacity: .6;
+        }
+    }
+
+  }
+
+  $iconSocialMedia: (
+    spotify: map-get($map: $redes, $key: 'spotify'),
+    youtube: map-get($map: $redes, $key: 'youtube'), 
+    itunes: map-get($map: $redes, $key: 'itunes')
+);
+
+@each $nameSocialMedia,  $colorIcon in $iconSocialMedia {
+  .rs-#{$nameSocialMedia}{
+      color: $colorIcon;
+      font-size: 2em;
+  }
+}
+

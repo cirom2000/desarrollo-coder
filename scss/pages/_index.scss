@@ -1,0 +1,36 @@
+.slider {
+
+    margin: 0 40px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+
+    &__img{
+        height: 700px;
+    }
+  }
+
+  .masNoticias{
+    @include sizeWith(200px,50px);
+  }
+
+  .whatsapp {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    @include sizeWith(50px,50px);
+    background-color: $primary;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    z-index: 10;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+ }
+ .fa-whatsapp {
+    font-size: 30px;
+ }

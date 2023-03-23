@@ -1,120 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../favicon.png">
-    <link rel="stylesheet" href="../css/styles.css">
+
+    <meta name="description" content="Encontrá en Bit+ las noticias mas relevantes de los videojuegos" />
+
+    <meta name="keywords" content="Bitplus, Bit+, Juegos, Marios Bros, Resident Evil, Dragon ball" />
+
+    <link rel="stylesheet" href="../css/style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/ce1edf5ae2.js" crossorigin="anonymous"></script>    
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ce1edf5ae2.js" crossorigin="anonymous"></script>
 
 
     <title>Noticias</title>
 </head>
+
 <body>
-
-    <header>
-        
+ 
+    <header class="header">
         <a href="../index.html">
-            <img class="mx-4" src="../images/logo.png" alt="Logo de Bitplus">
+            <img class="header__img mx-4" src="../images/logo.webp" alt="Logo de Bitplus">
         </a>
-        <nav> 
+        <nav class="header__nav">
             <ul class="mx-4">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="acercade.html">Acerca de</a></li>
-                <li><a href="podcast.html">Podcast</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li class="header__li"><a class="header__item" href="../index.html">Inicio</a></li>
+                <li class="header__li"><a class="header__item" href="./noticias.html">Noticias</a></li>
+                <li class="header__li"><a class="header__item" href="./acercade.html">Acerca de</a></li>
+                <li class="header__li"><a class="header__item" href="./podcast.html">Podcast</a></li>
+                <li class="header__li"><a class="header__item" href="./contacto.html">Contacto</a></li>
             </ul>
-        </nav>
+        </nav> 
 
-    </header>
+    </header> 
 
-    <section id="noticias" class="masMoticias">
+    <main>
+        <section id="noticias">
 
-        <div class="container">
-            <h1>Más noticias</h1>
-
-            <div class="row pt-2 pb-2 my-5 shadow contenido-noticia">
-                <div class="col-12 col-xxl-2">
-                    <div class="box">
-                        <img class="" src="../images/re4.webp" alt="Logo de Bitplus">
-                    </div>
-                   
-                </div>
-                <div class="col-12 col-xxl-10">
-                    <p class="noticias-title">Resident Evil 4 Remake</p>
-                    <p class="noticias-date">8 de marzo de 2023</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque harum iusto incidunt sint. Cum ipsam qui exercitationem consequuntur quod! Eius quod in est doloremque voluptas omnis neque recusandae accusantium quidem.</p>
-
-                </div>
-            </div>
-
-            <div class="row pt-2 pb-2 my-5 shadow contenido-noticia">
-                <div class="col-12 col-xxl-2">
-                    <div class="box">
-                        <img class="" src="../images/maxresdefault.jpg" alt="Logo de Bitplus">
-                    </div>
-                   
-                </div>
-                <div class="col-12 col-xxl-10">
-                    <p class="noticias-title">Marios Bros</p>
-                    <p class="noticias-date">8 de marzo de 2023</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque harum iusto incidunt sint. Cum ipsam qui exercitationem consequuntur quod! Eius quod in est doloremque voluptas omnis neque recusandae accusantium quidem.</p>
-
-                </div>
-            </div>
-
-            <div class="row pt-2 pb-2 my-5 shadow contenido-noticia">
-                <div class="col-12 col-xxl-2">
-                    <div class="box">
-                        <img class="" src="../images/dbzbt4.jpg" alt="Logo de Bitplus">
-                    </div>
-                   
-                </div>
-                <div class="col-12 col-xxl-10">
-                    <p class="noticias-title">Dragon Ball Z Budokai Tenkaichi 4</p>
-                    <p class="noticias-date">8 de marzo de 2023</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque harum iusto incidunt sint. Cum ipsam qui exercitationem consequuntur quod! Eius quod in est doloremque voluptas omnis neque recusandae accusantium quidem.</p>
-
-                </div>
-            </div>
-
-        </div>
-      
-
-    </section>
+            <div class="container page__container">
+                <h1>Más noticias</h1>
+                <hr class="w-100 clearfix " />
     
-  <!--pie de pagina-->
-  <footer class="text-center text-lg-start" style="background-color: rgb(0, 191, 255);">
+                <div class="row pt-2 pb-2 my-5 shadow ">
+                    <div class="col-12 col-xxl-2">
+                        <div class="box">
+                            <img class="" src="../images/re4.webp" alt="Logo de Bitplus">
+                        </div>
+    
+                    </div>
+                    <div class="col-12 col-xxl-10 noticias">
+                        <p class="noticias__title">Resident Evil 4 Remake</p>
+                        <p class="noticias__date">8 de marzo de 2023</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque harum iusto incidunt sint. Cum
+                            ipsam qui exercitationem consequuntur quod! Eius quod in est doloremque voluptas omnis neque
+                            recusandae accusantium quidem.</p>
+    
+                    </div>
+                </div>
+    
+                <div class="row pt-2 pb-2 my-5 shadow">
+                    <div class="col-12 col-xxl-2">
+                        <div class="box">
+                            <img class="" src="../images/mario-bros.webp" alt="Mario Bros Noticia">
+                        </div>
+    
+                    </div>
+                    <div class="col-12 col-xxl-10 noticias">
+                        <p class="noticias__title">Marios Bros</p>
+                        <p class="noticias__date">8 de marzo de 2023</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque harum iusto incidunt sint. Cum
+                            ipsam qui exercitationem consequuntur quod! Eius quod in est doloremque voluptas omnis neque
+                            recusandae accusantium quidem.</p>
+    
+                    </div>
+                </div>
+    
+                <div class="row pt-2 pb-2 my-5 shadow">
+                    <div class="col-12 col-xxl-2">
+                        <div class="box">
+                            <img class="" src="../images/dbzbt4.webp" alt="DBZ BT4 Noticia">
+                        </div>
+    
+                    </div>
+                    <div class="col-12 col-xxl-10 noticias">
+                        <p class="noticias__title">Dragon Ball Z Budokai Tenkaichi 4</p>
+                        <p class="noticias__date">8 de marzo de 2023</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque harum iusto incidunt sint. Cum
+                            ipsam qui exercitationem consequuntur quod! Eius quod in est doloremque voluptas omnis neque
+                            recusandae accusantium quidem.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+   <!--pie de pagina-->
+   <footer class="text-center text-lg-start footer">
     <div class="container d-flex justify-content-center py-5">
-      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: black">
-        <i class="fa-brands fa-facebook-f"></i>
-      </button>
-      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: black;">
-        <i class="fab fa-youtube"></i>
-      </button>
-      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: black;">
-        <i class="fab fa-instagram"></i>
-      </button>
-      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: black;">
-        <i class="fab fa-twitter"></i>
-      </button>
+        <a href="https://www.facebook.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://www.youtube.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.twitter.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
+            <i class="fab fa-twitter"></i>
+        </a>
     </div>
 
     <!-- Copyright -->
-    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 Bit Plus. Todos los derechos reservados.
+    <div class="text-center text-white p-3 footer__copy">
+        © 2023 Bit Plus. Todos los derechos reservados.
     </div>
     <!-- Copyright -->
-  </footer>
+</footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
 
 </body>
+
 </html>

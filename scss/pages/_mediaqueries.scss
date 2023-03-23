@@ -1,0 +1,56 @@
+@media (max-width: 1000px){
+    .slider__img{
+      height: 500px; 
+    }
+  
+    .acerca__contImg-img{
+      height: 400px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+  
+    .header {
+
+      @include sizeWith(100%,250px);
+      display: flex;
+      flex-wrap: wrap;
+      z-index: 10;
+    }
+  
+  
+    nav ul {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  
+    .slider {
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 280px;
+    }
+  
+    .slider__img{
+      height: 300px;
+    }
+  
+    .box {
+      @include sizeWith(100%,220px);
+    }
+  
+    .podcast__card {
+      @include sizeWith(270px,100%)
+    }
+  
+    .masMoticias{
+      margin-top: 280px;
+    }
+  
+    .page__container{
+      margin-top: 280px;
+    }
+  
+    .acerca__contImg-img{
+      height: 300px;
+    }
+  }

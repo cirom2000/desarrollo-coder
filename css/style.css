@@ -1,0 +1,167 @@
+/* reseteo de estilos */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* fuente */
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.page__container {
+  margin-top: 120px;
+  margin-bottom: 100px; }
+
+.header {
+  background-color: #00be5f;
+  top: 0;
+  position: fixed;
+  height: 85px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10; }
+  .header__img {
+    width: 50px;
+    transition: 0.5s ease all; }
+    .header__img:hover {
+      width: 60px; }
+  .header__li {
+    list-style-type: none;
+    padding: 0 15px;
+    margin-top: 10px; }
+  .header__nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; }
+  .header__item {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    transition: 0.5s ease all; }
+    .header__item:hover {
+      color: grey; }
+
+.footer {
+  background-color: deepskyblue; }
+  .footer__copy {
+    background-color: rgba(0, 0, 0, 0.2); }
+  .footer h3 {
+    margin-bottom: 10px; }
+  .footer p {
+    margin-top: 20px; }
+
+.slider {
+  margin: 0 40px;
+  margin-top: 120px;
+  margin-bottom: 40px; }
+  .slider__img {
+    height: 700px; }
+
+.masNoticias {
+  height: 50px;
+  width: 200px; }
+
+.whatsapp {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: #00be5f;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  z-index: 10;
+  color: #fff;
+  transition: all 0.3s ease-in-out; }
+  .whatsapp:hover {
+    transform: scale(1.1); }
+
+.fa-whatsapp {
+  font-size: 30px; }
+
+.box {
+  border: 5px solid darkblue;
+  height: 150px;
+  width: 200px; }
+  .box img {
+    height: 100%;
+    width: 100%; }
+
+.noticias__title {
+  font-size: 20px;
+  font-weight: bold; }
+
+.noticias__date {
+  color: #00be5f; }
+
+.podcast__card {
+  height: 300px; }
+  .podcast__card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+    filter: alpha(opacity=70);
+    opacity: 100;
+    transition: ease all 0.5s; }
+    .podcast__card img:hover {
+      opacity: .6; }
+
+.rs-spotify {
+  color: #00be5f;
+  font-size: 2em; }
+
+.rs-youtube {
+  color: red;
+  font-size: 2em; }
+
+.rs-itunes {
+  color: black;
+  font-size: 2em; }
+
+.acerca__contImg {
+  overflow: hidden; }
+  .acerca__contImg-img {
+    height: 600px;
+    transition: ease all 0.5s; }
+    .acerca__contImg-img:hover {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3); }
+
+@media (max-width: 1000px) {
+  .slider__img {
+    height: 500px; }
+  .acerca__contImg-img {
+    height: 400px; } }
+
+@media (max-width: 600px) {
+  .header {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 10; }
+  nav ul {
+    flex-direction: column;
+    justify-content: space-around; }
+  .slider {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 280px; }
+  .slider__img {
+    height: 300px; }
+  .box {
+    height: 220px;
+    width: 100%; }
+  .podcast__card {
+    height: 100%;
+    width: 270px; }
+  .masMoticias {
+    margin-top: 280px; }
+  .page__container {
+    margin-top: 280px; }
+  .acerca__contImg-img {
+    height: 300px; } }

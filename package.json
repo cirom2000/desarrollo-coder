@@ -1,0 +1,22 @@
+{
+  "name": "ciro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cirom2000/desarrollo-coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cirom2000/desarrollo-coder/issues"
+  },
+  "homepage": "https://github.com/cirom2000/desarrollo-coder#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
