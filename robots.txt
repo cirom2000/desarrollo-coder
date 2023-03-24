@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://cirom2000.github.io/desarrollo-coder/sitemap.xml
