@@ -21,21 +21,40 @@
 
 <body>
 
-  <header class="header">
-    <a href="../index.html">
-        <img class="header__img mx-4" src="../images/logo.webp" alt="Logo de Bitplus">
-    </a>
-    <nav class="header__nav">
-        <ul class="mx-4">
-            <li class="header__li"><a class="header__item" href="../index.html">Inicio</a></li>
-            <li class="header__li"><a class="header__item" href="./noticias.html">Noticias</a></li>
-            <li class="header__li"><a class="header__item" href="./acercade.html">Acerca de</a></li>
-            <li class="header__li"><a class="header__item" href="./podcast.html">Podcast</a></li>
-            <li class="header__li"><a class="header__item" href="./contacto.html">Contacto</a></li>
-        </ul>
-    </nav> 
+    <header>
+        <nav class="navbar navbar-expand-lg header__nav">
+            <div class="container-fluid">
+                <a href="../index.html">
+                    <img class="header__img mx-lg-3" src="../images/logo.webp" alt="Logo de Bitplus">
+                </a>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav mx-2 my-3 mx-lg-3">
+                        <li class="nav-item">
+                            <a class="header__item active mx-lg-3" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header__item mx-lg-3" href="./noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header__item mx-lg-3" href="./acercade.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header__item mx-lg-3" href="./podcast.html">Podcast</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header__item mx-lg-3" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-</header> 
+    </header>
 
     <main>
 
@@ -47,42 +66,56 @@
                     <img src="../images/gaming.webp" class="d-block w-100 acerca__contImg-img" alt="Nosotros IMG">
                 </div>
 
-            <h3 class="mt-4 mb-3">Noticias sobre el mundo de los videojuegos</h3>
-            <hr class="w-100 clearfix " />
+                <h3 class="mt-4 mb-3">Noticias sobre el mundo de los videojuegos</h3>
+                <hr class="w-100 clearfix " />
 
-            <p>Bienvenido a nuestro sitio web de noticias de videojuegos, donde encontrarás la información más actualizada y relevante sobre tus juegos favoritos. Nuestro equipo de redactores apasionados por los videojuegos trabaja constantemente para ofrecerte las últimas noticias, reseñas y avances de los juegos más populares en todas las plataformas, incluyendo PC, consolas y móviles.
+                <p>Bienvenido a nuestro sitio web de noticias de videojuegos, donde encontrarás la información más
+                    actualizada y relevante sobre tus juegos favoritos. Nuestro equipo de redactores apasionados por los
+                    videojuegos trabaja constantemente para ofrecerte las últimas noticias, reseñas y avances de los
+                    juegos más populares en todas las plataformas, incluyendo PC, consolas y móviles.
 
-                En nuestro sitio web, encontrarás noticias detalladas y análisis críticos de la industria de los videojuegos, desde nuevos lanzamientos hasta actualizaciones importantes y eventos destacados. Nuestro objetivo es ofrecer a nuestros lectores información precisa y confiable, para que siempre estén al tanto de las últimas tendencias en el mundo de los videojuegos.
-                
-                Además, también ofrecemos artículos y columnas de opinión escritas por nuestros expertos en videojuegos, para que puedas conocer las opiniones y perspectivas de la comunidad de jugadores. Nos enorgullece ser una fuente confiable y amigable para los entusiastas de los videojuegos, y esperamos que disfrutes explorando nuestro sitio y leyendo nuestras noticias y reseñas. ¡Gracias por visitarnos!</p>
+                    En nuestro sitio web, encontrarás noticias detalladas y análisis críticos de la industria de los
+                    videojuegos, desde nuevos lanzamientos hasta actualizaciones importantes y eventos destacados.
+                    Nuestro objetivo es ofrecer a nuestros lectores información precisa y confiable, para que siempre
+                    estén al tanto de las últimas tendencias en el mundo de los videojuegos.
+
+                    Además, también ofrecemos artículos y columnas de opinión escritas por nuestros expertos en
+                    videojuegos, para que puedas conocer las opiniones y perspectivas de la comunidad de jugadores. Nos
+                    enorgullece ser una fuente confiable y amigable para los entusiastas de los videojuegos, y esperamos
+                    que disfrutes explorando nuestro sitio y leyendo nuestras noticias y reseñas. ¡Gracias por
+                    visitarnos!</p>
             </div>
         </section>
 
     </main>
 
-   <!--pie de pagina-->
-   <footer class="text-center text-lg-start footer">
-    <div class="container d-flex justify-content-center py-5">
-        <a href="https://www.facebook.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
-            <i class="fa-brands fa-facebook-f"></i>
-        </a>
-        <a href="https://www.youtube.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
-            <i class="fab fa-youtube"></i>
-        </a>
-        <a href="https://www.instagram.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
-            <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://www.twitter.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
-            <i class="fab fa-twitter"></i>
-        </a>
-    </div>
+    <!--pie de pagina-->
+    <footer class="text-center text-lg-start footer">
+        <div class="container d-flex justify-content-center py-5">
+            <a href="https://www.facebook.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com/" target="_blank" class="btn btn-dark btn-lg btn-floating mx-2">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
 
-    <!-- Copyright -->
-    <div class="text-center text-white p-3 footer__copy">
-        © 2023 Bit Plus. Todos los derechos reservados.
-    </div>
-    <!-- Copyright -->
-</footer> 
+        <!-- Copyright -->
+        <div class="text-center text-white p-3 footer__copy">
+            © 2023 Bit Plus. Todos los derechos reservados.
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
 
 </body>
 

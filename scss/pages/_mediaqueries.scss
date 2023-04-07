@@ -10,24 +10,11 @@
   
   @media (max-width: 600px) {
   
-    .header {
-
-      @include sizeWith(100%,250px);
-      display: flex;
-      flex-wrap: wrap;
-      z-index: 10;
-    }
-  
-  
-    nav ul {
-      flex-direction: column;
-      justify-content: space-around;
-    }
   
     .slider {
       margin-left: 0;
       margin-right: 0;
-      margin-top: 280px;
+      margin-top: 30px;
     }
   
     .slider__img{
@@ -43,11 +30,11 @@
     }
   
     .masMoticias{
-      margin-top: 280px;
+      margin-top: 50px;
     }
   
     .page__container{
-      margin-top: 280px;
+      margin-top: 50px;
     }
   
     .acerca__contImg-img{

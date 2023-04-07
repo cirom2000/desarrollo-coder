@@ -8,39 +8,35 @@ body {
   font-family: Arial, Helvetica, sans-serif; }
 
 .page__container {
-  margin-top: 120px;
-  margin-bottom: 100px; }
+  margin-top: 40px;
+  margin-bottom: 60px; }
 
-.header {
-  background-color: #00be5f;
-  top: 0;
-  position: fixed;
-  height: 85px;
-  width: 100%;
+.header__nav {
+  background-color: #00be5f; }
+
+.header__img {
+  width: 50px;
+  transition: 0.5s ease all; }
+  .header__img:hover {
+    width: 60px; }
+
+.header__li {
+  list-style-type: none;
+  padding: 0 15px;
+  margin-top: 10px; }
+
+.header__nav ul {
+  list-style-type: none;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 10; }
-  .header__img {
-    width: 50px;
-    transition: 0.5s ease all; }
-    .header__img:hover {
-      width: 60px; }
-  .header__li {
-    list-style-type: none;
-    padding: 0 15px;
-    margin-top: 10px; }
-  .header__nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around; }
-  .header__item {
-    text-decoration: none;
-    color: white;
-    font-size: 22px;
-    transition: 0.5s ease all; }
-    .header__item:hover {
-      color: grey; }
+  justify-content: space-around; }
+
+.header__item {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  transition: 0.5s ease all; }
+  .header__item:hover {
+    color: grey; }
 
 .footer {
   background-color: deepskyblue; }
@@ -53,7 +49,7 @@ body {
 
 .slider {
   margin: 0 40px;
-  margin-top: 120px;
+  margin-top: 50px;
   margin-bottom: 40px; }
   .slider__img {
     height: 700px; }
@@ -138,19 +134,10 @@ body {
     height: 400px; } }
 
 @media (max-width: 600px) {
-  .header {
-    height: 250px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 10; }
-  nav ul {
-    flex-direction: column;
-    justify-content: space-around; }
   .slider {
     margin-left: 0;
     margin-right: 0;
-    margin-top: 280px; }
+    margin-top: 30px; }
   .slider__img {
     height: 300px; }
   .box {
@@ -160,8 +147,8 @@ body {
     height: 100%;
     width: 270px; }
   .masMoticias {
-    margin-top: 280px; }
+    margin-top: 50px; }
   .page__container {
-    margin-top: 280px; }
+    margin-top: 50px; }
   .acerca__contImg-img {
     height: 300px; } }

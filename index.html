@@ -24,20 +24,36 @@
 <body>
 
     <!--logo de la pagina y barra de navegacion-->
-    <header class="header">
-
-        <a href="./index.html">
-            <img class="header__img mx-4" src="./images/logo.webp" alt="Logo de Bitplus">
-        </a>
-        <nav class="header__nav">
-            <ul class="mx-4">
-                <li class="header__li"><a class="header__item" href="index.html">Inicio</a></li>
-                <li class="header__li"><a class="header__item" href="./pages/noticias.html">Noticias</a></li>
-                <li class="header__li"><a class="header__item" href="./pages/acercade.html">Acerca de</a></li>
-                <li class="header__li"><a class="header__item" href="./pages/podcast.html">Podcast</a></li>
-                <li class="header__li"><a class="header__item" href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg header__nav">
+            <div class="container-fluid">
+                <a href="./index.html">
+                    <img class="header__img mx-lg-3" src="./images/logo.webp" alt="Logo de Bitplus">
+                </a>
+              <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav mx-2 my-3 mx-lg-3">
+                  <li class="nav-item">
+                    <a class="header__item active mx-lg-3" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="header__item mx-lg-3" href="./pages/noticias.html">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="header__item mx-lg-3" href="./pages/acercade.html">Acerca de</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="header__item mx-lg-3" href="./pages/podcast.html">Podcast</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="header__item mx-lg-3" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
     </header>
 
@@ -104,10 +120,8 @@
                         <div class="card mt-4 cardDeNoticia">
                             <img src="./images/leon-re4.webp" class="card-img-top" alt="RE4 Remake Noticia">
                             <div class="card-body">
-                                <h5 class="card-title">Titular de la noticia</h5>
-                                <p class="card-text">Breve descripción de la noticia. Lorem ipsum dolor sit
-                                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua.</p>
+                                <h5 class="card-title">Resident Evil 4 Remake ya está disponible</h5>
+                                <p class="card-text">Resident Evil 4 Remake ya está disponible y rompe récord en Steam (PC) desde su lanzamiento y además se puede jugar en Xbox Series X|S, PS4, PS5</p>
                                 <a href="#" class="btn btn-lg btn-success text-decoration-none">Leer más</a>
                             </div>
                         </div>
@@ -117,10 +131,8 @@
                         <div class="card mt-4 cardDeNoticia">
                             <img src="./images/fifa23.webp" class="card-img-top" alt="FIFA23 Noticia">
                             <div class="card-body">
-                                <h5 class="card-title">Titular de la noticia</h5>
-                                <p class="card-text">Breve descripción de la noticia. Lorem ipsum dolor sit
-                                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua.</p>
+                                <h5 class="card-title">FIFA 23 bate record de venta</h5>
+                                <p class="card-text">Electronic Arts confirma en su último informe financiero que fifa 23 se convertirá en la entrega mas vendida en la historia de la franquicia.</p>
                                 <a href="#" class="btn btn-lg btn-success  text-decoration-none">Leer más</a>
                             </div>
                         </div>
@@ -129,10 +141,8 @@
                         <div class="card mt-4 cardDeNoticia">
                             <img src="./images/hogwarts.webp" class="card-img-top" alt="Hogwarts Legacy Noticia">
                             <div class="card-body">
-                                <h5 class="card-title">Titular de la noticia</h5>
-                                <p class="card-text">Breve descripción de la noticia. Lorem ipsum dolor sit
-                                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua.</p>
+                                <h5 class="card-title">Hogwarts Legacy review</h5>
+                                <p class="card-text">Hogwars Legacy es un RPG de acción en mundo abierto ambientado en el universo de Harry Potter, lee nuestra reseña aqui.</p>
                                 <a href="#" class="btn btn-lg btn-success  text-decoration-none">Leer más</a>
                             </div>
                         </div>
